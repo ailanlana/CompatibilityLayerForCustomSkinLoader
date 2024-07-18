@@ -3,7 +3,7 @@ plugins {
     id 'com.gtnewhorizons.gtnhconvention'
 }
 
-version = "1.0.0"
+version = "sakura-1.0.0"
 spotless {
     java {
         targetExclude 'src/*/java/**/*.java', 'src/*/scala/**/*.java'
