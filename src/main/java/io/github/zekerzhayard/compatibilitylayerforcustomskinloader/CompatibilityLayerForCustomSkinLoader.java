@@ -5,16 +5,18 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import javax.swing.text.html.HTML;
+
 @Mod(
     modid = CompatibilityLayerForCustomSkinLoader.MODID,
-    name = CompatibilityLayerForCustomSkinLoader.MODID,
+    name = "CompatibilityLayerForCustomSkinLoader",
     version = CompatibilityLayerForCustomSkinLoader.VERSION,
     acceptedMinecraftVersions = "(,1.7.10]",
     acceptableRemoteVersions = "*"
 )
 public class CompatibilityLayerForCustomSkinLoader {
-    public final static String MODID = "@MODID@";
-    public final static String VERSION = "@VERSION@";
+    public final static String MODID = "CompatibilityLayerForCustomSkinLoader";
+    public final static String VERSION = Tags.VERSION;
 
     private final static Logger LOGGER = LogManager.getLogger(MODID);
 
